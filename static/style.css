@@ -1,0 +1,19 @@
+.container-1 {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    border: 5px solid pink;
+}
+.flex-box-rps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rock1, .paper1, .scissors1 {
+    width: 150px;
+    margin: 10px;
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
